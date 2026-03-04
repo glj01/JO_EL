@@ -1,0 +1,107 @@
+<!--
+  ============================================================
+  SHARED HEADER  —  _header.html
+  Copy this block into every page between <body> and your
+  page content. Update the <link> and <script> paths if the
+  page is in a subfolder (e.g. employers/ needs ../css/style.css)
+  ============================================================
+-->
+
+<header id="header">
+  <div class="hdr">
+
+    <!-- LOGO -->
+    <a href="../index.html" class="logo">
+      <svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="lg1" x1="0" y1="0" x2="72" y2="72" gradientUnits="userSpaceOnUse">
+            <stop offset="0%"   stop-color="#289dcc"/>
+            <stop offset="60%"  stop-color="#0087ba"/>
+            <stop offset="100%" stop-color="#006a93"/>
+          </linearGradient>
+        </defs>
+        <rect x="1" y="1" width="70" height="70" rx="7" fill="url(#lg1)"/>
+        <rect x="1" y="1" width="70" height="20" rx="7" fill="rgba(255,255,255,0.06)"/>
+        <ellipse cx="42" cy="38" rx="17" ry="21"
+                 stroke="white" stroke-width="3.0" fill="none" opacity="0.88"
+                 transform="rotate(-4 42 38)"/>
+        <path d="M31 13 C31.5 13 32 13.2 32 14 L32 49 C32 53 29.5 57.5 25 59 C20.5 60.5 16.5 58 15.5 54.5 C14.8 52 15.8 49.5 17.5 48.2"
+              stroke="white" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+        <path d="M23 13 C25 12.5 28 12.5 32 13 C35.5 13.5 38 13.5 39.5 13"
+              stroke="white" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+      </svg>
+      <div class="logo-txt">
+        <span class="logo-name">Jackson</span>
+        <span class="logo-name logo-grey">Osborne</span>
+        <span class="logo-sub">employment lawyers</span>
+      </div>
+    </a>
+
+    <!-- DESKTOP NAV -->
+    <nav>
+      <div class="nd">
+        <a href="../employers/index.html" class="nl">For Employers</a>
+        <div class="dm">
+          <a href="../employers/tribunal.html">Tribunal &amp; Court Representation</a>
+          <a href="../employers/settlement.html">Settlement Agreements</a>
+          <a href="../employers/disciplinary.html">Disciplinary &amp; Investigations</a>
+          <a href="../employers/contracts.html">Contracts &amp; Policies</a>
+          <a href="../employers/directors.html">Directors' Service Agreements</a>
+          <a href="../employers/redundancy.html">Redundancy</a>
+          <a href="../employers/restrictive-covenants.html">Restrictive Covenants</a>
+          <a href="../employers/discrimination.html">Discrimination &amp; Harassment</a>
+          <a href="../employers/tupe.html">TUPE &amp; Business Acquisitions</a>
+        </div>
+      </div>
+      <div class="nd">
+        <a href="../employees/index.html" class="nl">For Employees</a>
+        <div class="dm">
+          <a href="../employees/unfair-dismissal.html">Unfair &amp; Constructive Dismissal</a>
+          <a href="../employees/settlement.html">Settlement Agreements</a>
+          <a href="../employees/discrimination.html">Discrimination &amp; Harassment</a>
+          <a href="../employees/whistleblowing.html">Whistleblowing</a>
+          <a href="../employees/restrictive-covenants.html">Restrictive Covenants</a>
+        </div>
+      </div>
+      <a href="../monthly-retainer.html" class="nl">Monthly Retainer</a>
+      <a href="../freedom-rights.html"   class="nl">Freedom Rights</a>
+      <a href="../news/index.html"       class="nl">Updates</a>
+      <a href="../charges.html"          class="nl">Charges</a>
+      <a href="../contact.html"          class="nl ncta">Get Advice</a>
+    </nav>
+
+    <!-- MOBILE HAMBURGER -->
+    <button class="mob-menu" id="mob-open" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE OVERLAY MENU -->
+<div id="mob" class="mob-overlay">
+  <button class="mob-close" id="mob-close">&#x2715;</button>
+
+  <a href="../index.html"           class="mob-nav-link">Home</a>
+
+  <p class="mob-section-title">For Employers</p>
+  <a href="../employers/index.html"               class="mob-sub-link">Overview</a>
+  <a href="../employers/tribunal.html"            class="mob-sub-link">Tribunal &amp; Court</a>
+  <a href="../employers/disciplinary.html"        class="mob-sub-link">Disciplinary &amp; Investigations</a>
+  <a href="../employers/contracts.html"           class="mob-sub-link">Contracts &amp; Policies</a>
+  <a href="../employers/redundancy.html"          class="mob-sub-link">Redundancy</a>
+  <a href="../employers/restrictive-covenants.html" class="mob-sub-link">Restrictive Covenants</a>
+  <a href="../employers/tupe.html"                class="mob-sub-link">TUPE</a>
+
+  <p class="mob-section-title">For Employees</p>
+  <a href="../employees/index.html"               class="mob-sub-link">Overview</a>
+  <a href="../employees/unfair-dismissal.html"    class="mob-sub-link">Unfair Dismissal</a>
+  <a href="../employees/settlement.html"          class="mob-sub-link">Settlement Agreements</a>
+  <a href="../employees/discrimination.html"      class="mob-sub-link">Discrimination</a>
+  <a href="../employees/whistleblowing.html"      class="mob-sub-link">Whistleblowing</a>
+
+  <a href="../monthly-retainer.html" class="mob-nav-link">Monthly Retainer</a>
+  <a href="../freedom-rights.html"   class="mob-nav-link">Freedom Rights</a>
+  <a href="../news/index.html"       class="mob-nav-link">News &amp; Updates</a>
+  <a href="../charges.html"          class="mob-nav-link">Our Charges</a>
+  <a href="../contact.html"          class="mob-nav-link">Contact Us</a>
+</div>
